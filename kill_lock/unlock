@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+touch tep_unlock
+
+
+
+
+ps -aux |grep apt > tep_unlock
+
+
+./getpid.py
+
+rm tep_unlock
+
+
+echo "finish"
